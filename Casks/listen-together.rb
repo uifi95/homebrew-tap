@@ -1,6 +1,6 @@
 cask "listen-together" do
-  version "1.1.0"
-  sha256 "e89a5ecf5025021ea37c4267d7430b44cfe0917c519db2e07aa3e66199185e34"
+  version "1.2.0"
+  sha256 "1b328fca7e01ca59c4d12c26196f831a144e187a64c4915ff3ae938f10a1ad1b"
 
   url "https://github.com/uifi95/listen-together/releases/download/v#{version}/ListenTogether-#{version}-macos.zip"
   name "ListenTogether"
@@ -8,8 +8,6 @@ cask "listen-together" do
   homepage "https://github.com/uifi95/listen-together"
 
   depends_on macos: :sonoma
-  # Creating a room opens a Cloudflare quick tunnel.
-  depends_on formula: "cloudflared"
 
   app "ListenTogether.app"
 
