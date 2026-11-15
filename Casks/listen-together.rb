@@ -1,6 +1,6 @@
 cask "listen-together" do
-  version "1.2.3"
-  sha256 "7a8b1aabe28c67200fb967f2c35d9f31450e113a61380e7138eea1132c10b154"
+  version "1.2.4"
+  sha256 "22dafe8755deb31692b1532fd9500ee784cefb178ff35c50fef1c22451565f66"
 
   url "https://github.com/uifi95/listen-together/releases/download/v#{version}/ListenTogether-#{version}-macos.zip"
   name "ListenTogether"
