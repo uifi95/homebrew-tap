@@ -1,9 +1,9 @@
 cask "qobuz-now-playing" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.1"
-  sha256 arm:   "72c380cb326194625e32ac0d14c94fdfb34fa8bd653ee9868cd7f5e043597a72",
-         intel: "63de9abd50c7b0a13ec12d454b8e9f69733c9cca59b42257661a979d5182c930"
+  version "1.2.1"
+  sha256 arm:   "c71835cffc9652c99ac27af5f91d9e812af18398fe4f938844b68273c6af40a0",
+         intel: "5261b586bf564667f39b3556ef46e6ad6233ea34c5893a243c13a418bc6e366e"
 
   url "https://github.com/uifi95/qobuz-now-playing/releases/download/v#{version}/qobuz-now-playing-#{version}-macos-#{arch}.tar.gz"
   name "Qobuz Now Playing"
